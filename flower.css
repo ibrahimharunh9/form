@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  
+}
+.container {
+    background-color: aliceblue;
+    width: 70%;
+    padding: 20px;
+    margin: 50px auto;
+    border: 1px solid blue;
+    display: flex;
+    border-radius: 8px;
+}
+.photo{
+    flex:1;
+    margin: 5px 35px;
+}
+.datails{
+    flex:1.9;
+}
+.photo label{
+    border:1px solid gray;
+    color: red;
+    font-weight: bolder;
+    width: 20%;
+    margin:1px ;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 5px ;
+    right: 10px;
+}
+
+
+
+
+
+.photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.datails h1 span{
+    text-decoration: underline red;
+}
+.datails h1 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.datails h2{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size:15px;
+    margin-bottom: 27px;
+
+} 
+.datails p span{
+    color: brown;
+}
+.datails p{
+    color: gray;
+    word-spacing:0.6px;
+}

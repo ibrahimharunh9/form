@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 20px;
+}
+.container{
+    width: 40%;
+    padding:20px;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 8px;
+    background-color: white;
+}
+.editContainer{
+    height: 50px;
+}
+.editIcon{
+    position: absolute;
+    top:30px;
+    right:30px;
+    margin-bottom: 30px;
+    font-size: 23px;
+    color:green;
+}
+.datails{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.photo img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.information h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+.information p{
+    text-transform: capitalize;
+    color:gray;
+    margin-bottom: 20px;
+}
+.text{
+    color:gray;
+    margin: 20px;
+}
+.member{
+    display: flex;
+    justify-content: space-between;
+}
+.status h2{
+    color:gray;
+
+}
+button{
+    margin:5px 25px;
+    font-weight: bold;
+    border: 1px solid green;
+    color:gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+.status p{
+    color:goldenrod;
+    font-size:18px;
+    margin-bottom: 30px;
+}
+.connected{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.connected h2{
+    color:balck;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.icon{
+    display: flex;
+}
+.icon p{
+    margin: 20px;
+}
+.icon i{
+    width: 40%;
+    padding: 18px;
+    border:1px solid green;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

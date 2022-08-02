@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    padding: 50px;
+    border-radius: 8px;
+}
+.photo{
+    flex: 1;
+    text-align: center;
+    margin-top: 40px;
+}
+.datails{
+    flex: 2;
+}
+
+.photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.photo h2{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.photo h3 {
+    word-spacing: 5px;
+    color:blueviolet;
+    margin-bottom: 15px;
+    text-transform:capitalize;
+}
+.photo p{
+    text-transform: capitalize;
+}
+
+.datails{
+    padding: 20px;    
+}
+
+.detailsContent {
+    display: flex;
+    justify-content: space-between;
+}
+.information h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.information p{
+    color: greenyellow;
+}
+.link h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.link p{
+    color:green;
+    
+}
+
+.text {
+    margin-top: 50px;
+}
+.text h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: gray;
+    margin-bottom: 15px;
+
+}
+.text p{
+    margin-bottom: 20px;
+}
